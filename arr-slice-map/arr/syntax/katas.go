@@ -10,44 +10,44 @@ func kata01DeclarationAndInitialization() {
 	// Kata 01 - Declaration and Initialization
 
 	// 1. Basic declaration with var and short syntax
-	var arr1 [3]int    // [0, 0, 0]
-	var arr2 [2]string // ["", ""]
-	var arr3 [4]bool   // [false, false, false, false]
+	// var arr1 [3]int    // [0, 0, 0]
+	// var arr2 [2]string // ["", ""]
+	// var arr3 [4]bool   // [false, false, false, false]
 
-	arr4 := [4]int{}    // [0, 0, 0, 0, 0]
-	arr5 := [3]string{} // ["", "", ""]
-	arr6 := [2]bool{}   // [true, false]
+	// arr4 := [4]int{}    // [0, 0, 0, 0, 0]
+	// arr5 := [3]string{} // ["", "", ""]
+	// arr6 := [2]bool{}   // [true, false]
 
-	// 2. Declaration + Explicit Initialization
-	var arr7 [3]int = [3]int{10, 20, 30}     // [10, 20, 30]
-	var arr8 [2]string = [2]string{"A", "B"} // ["A", "B"]
+	// // 2. Declaration + Explicit Initialization
+	// var arr7 [3]int = [3]int{10, 20, 30}     // [10, 20, 30]
+	// var arr8 [2]string = [2]string{"A", "B"} // ["A", "B"]
 
-	var arr9 = [4]int{1, 2, 3, 4}            // [1, 2, 3, 4]
-	var arr10 = [3]string{"Go", "Rust", "C"} // ["Go", "Rust", "C"]
+	// var arr9 = [4]int{1, 2, 3, 4}            // [1, 2, 3, 4]
+	// var arr10 = [3]string{"Go", "Rust", "C"} // ["Go", "Rust", "C"]
 
-	arr11 := [3]float64{1.1, 2.2, 3.3} // [1.1, 2.2, 3.3]
-	arr12 := [2]bool{true, false}      // [true, false]
+	// arr11 := [3]float64{1.1, 2.2, 3.3} // [1.1, 2.2, 3.3]
+	// arr12 := [2]bool{true, false}      // [true, false]
 
-	// 3. Partial Initialization = Zero value
-	var arr13 = [5]int{1, 2}   // [1, 2, 0, 0, 0]
-	var arr14 = [3]string{"A"} // ["A", "", ""]
+	// // 3. Partial Initialization = Zero value
+	// var arr13 = [5]int{1, 2}   // [1, 2, 0, 0, 0]
+	// var arr14 = [3]string{"A"} // ["A", "", ""]
 
-	arr15 := [4]bool{true, false} // [true, false, false, false]
-	arr16 := [6]int{10, 20}       // [10, 20, 0, 0, 0, 0]
+	// arr15 := [4]bool{true, false} // [true, false, false, false]
+	// arr16 := [6]int{10, 20}       // [10, 20, 0, 0, 0, 0]
 
-	// 4. Size inference (...)
-	var arr17 = [...]int{10, 20, 30}     // Tamanho = 3
-	var arr18 = [...]string{"Oi", "Bem"} // Tamanho = 2
+	// // 4. Size inference (...)
+	// var arr17 = [...]int{10, 20, 30}     // Tamanho = 3
+	// var arr18 = [...]string{"Oi", "Bem"} // Tamanho = 2
 
-	arr19 := [...]float64{2.2, 3.3}       // Tamanho = 2
-	arr20 := [...]bool{true, false, true} // Tamanho = 3
+	// arr19 := [...]float64{2.2, 3.3}       // Tamanho = 2
+	// arr20 := [...]bool{true, false, true} // Tamanho = 3
 
-	// 6. Initialization with specific indexes
-	var arr21 = [5]int{1: 10, 3: 20}      // [0, 10, 0, 20, 0]
-	var arr22 = [4]string{1: "A", 2: "C"} // ["A", "", "C", ""]
+	// // 6. Initialization with specific indexes
+	// var arr21 = [5]int{1: 10, 3: 20}      // [0, 10, 0, 20, 0]
+	// var arr22 = [4]string{1: "A", 2: "C"} // ["A", "", "C", ""]
 
-	arr23 := [6]int{2: 100, 5: 200} // [0, 0, 100, 0, 0, 200]
-	arr24 := [3]string{1: "B"}      // ["", "B", ""]
+	// arr23 := [6]int{2: 100, 5: 200} // [0, 0, 100, 0, 0, 200]
+	// arr24 := [3]string{1: "B"}      // ["", "B", ""]
 }
 
 // Kata 02 - Access and Modification
