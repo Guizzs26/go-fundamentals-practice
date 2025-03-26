@@ -22,7 +22,7 @@ diff & 1 -> The 1 representaion in binary is 00000001
 
 SO
 
-& (AND operator) Just compare if the last bit of diff and 00000001 are 1 and returns true or false.
+& (AND operator) Just compare if the last bit of diff and 00000001 are 1 and returns uint[8] value
 
 int() is just to convert the uint8 (byte) value to a int value
 
